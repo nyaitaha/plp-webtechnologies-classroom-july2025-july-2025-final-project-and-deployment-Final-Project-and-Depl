@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Streamix — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">STREAMIX</div>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="movies.html">Movies</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="auth">
+      <button class="btn small">Sign In</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay">
+        <h1>Unlimited Movies, TV Shows and More.</h1>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="movies.html">Browse Movies</a>
+          <button class="btn" id="watchTrailer">Watch Trailer</button>
+        </div>
+      </div>
+      <div class="hero-bg" style="background-image:url('https://image.tmdb.org/t/p/original/1E5baAaEse26fej7uHcjOgEE2t2.jpg');"></div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Trending Now</h2>
+      <div class="carousel" id="trendingRow"></div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Popular on Streamix</h2>
+      <div class="carousel" id="popularGrid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>© <span id="year"></span> Streamix. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Help</a>
+    </div>
+  </footer>
+
+  <template id="cardTpl">
+    <div class="card">
+      <img class="card-img" src="" alt="" />
+    </div>
+  </template>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="video-wrap" id="modalVideo"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
