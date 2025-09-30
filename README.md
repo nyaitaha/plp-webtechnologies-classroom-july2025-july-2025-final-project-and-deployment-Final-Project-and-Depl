@@ -59,6 +59,6 @@ No build tools or server setup required; all files are static.
 - Trailer videos from YouTube.
 
 ## 🌍 Live Deployment
-Deployed here 👉 [Live Site Link](https://yourusername.github.io/your-repo-name/)
+Deployed here 👉 [Live Site Link]([https://yourusername.github.io/your-repo-name/](https://nyaitaha.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/))
 
 © Streamix. All rights reserved.
