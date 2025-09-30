@@ -58,6 +58,7 @@ No build tools or server setup required; all files are static.
 - Movie images from [TMDB](https://www.themoviedb.org/).
 - Trailer videos from YouTube.
 
----
+## 🌍 Live Deployment
+Deployed here 👉 [Live Site Link](https://yourusername.github.io/your-repo-name/)
 
 © Streamix. All rights reserved.
